@@ -1,0 +1,47 @@
+<svg width="1400" height="560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgMarquee" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a237e"/>
+      <stop offset="100%" style="stop-color:#3949ab"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="560" fill="url(#bgMarquee)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="150" fill="#ffffff" fill-opacity="0.03"/>
+  <circle cx="1300" cy="460" r="200" fill="#ffffff" fill-opacity="0.03"/>
+  <circle cx="1200" cy="100" r="100" fill="#ffffff" fill-opacity="0.02"/>
+
+  <!-- Left side - Icon -->
+  <g transform="translate(250, 180)">
+    <!-- Circular arrow (refresh/cache symbol) -->
+    <circle cx="100" cy="100" r="80" fill="none" stroke="#fff" stroke-width="10" stroke-dasharray="400" stroke-dashoffset="100"/>
+    <polygon points="170,70 200,100 170,130" fill="#fff"/>
+    <!-- Checkmark overlay -->
+    <circle cx="100" cy="100" r="40" fill="#4caf50"/>
+    <polyline points="80,100 94,114 124,84" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right side - Text -->
+  <text x="700" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Clear Tab Cache</text>
+
+  <text x="700" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#b3e5fc">One-click cache clearing for the current site only</text>
+
+  <!-- Feature bullets -->
+  <g transform="translate(700, 330)">
+    <circle cx="10" cy="12" r="6" fill="#4caf50"/>
+    <text x="30" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#e3f2fd">Domain-specific clearing</text>
+  </g>
+
+  <g transform="translate(700, 375)">
+    <circle cx="10" cy="12" r="6" fill="#4caf50"/>
+    <text x="30" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#e3f2fd">Perfect for developers</text>
+  </g>
+
+  <g transform="translate(700, 420)">
+    <circle cx="10" cy="12" r="6" fill="#4caf50"/>
+    <text x="30" y="18" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#e3f2fd">Lightweight &amp; fast</text>
+  </g>
+</svg>

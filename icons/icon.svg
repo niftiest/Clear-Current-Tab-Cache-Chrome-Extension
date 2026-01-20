@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Broom handle -->
+  <rect x="58" y="8" width="12" height="70" rx="2" fill="#8B4513"/>
+
+  <!-- Broom head binding -->
+  <rect x="48" y="72" width="32" height="10" rx="2" fill="#DAA520"/>
+
+  <!-- Broom bristles -->
+  <path d="M48 82 L40 120 L44 120 L50 85 L54 120 L58 120 L60 85 L64 120 L68 120 L70 85 L74 120 L78 120 L84 120 L88 120 L80 82 Z" fill="#DAA520"/>
+
+  <!-- Bristle detail lines -->
+  <line x1="44" y1="90" x2="42" y2="118" stroke="#B8860B" stroke-width="1"/>
+  <line x1="52" y1="86" x2="51" y2="118" stroke="#B8860B" stroke-width="1"/>
+  <line x1="60" y1="86" x2="60" y2="118" stroke="#B8860B" stroke-width="1"/>
+  <line x1="68" y1="86" x2="69" y2="118" stroke="#B8860B" stroke-width="1"/>
+  <line x1="76" y1="86" x2="78" y2="118" stroke="#B8860B" stroke-width="1"/>
+  <line x1="84" y1="90" x2="86" y2="118" stroke="#B8860B" stroke-width="1"/>
+</svg>
